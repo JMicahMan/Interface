@@ -39,7 +39,7 @@ namespace Interface
         }
         static void Main(string[] args)
         {
-            void PV(ValRef P)
+            void PVS(ValRef P)
             {
                 Console.WriteLine(P.V);
             }
