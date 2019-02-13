@@ -39,13 +39,14 @@ namespace Interface
         }
         static void Main(string[] args)
         {
-            void PVS(ValRef P)
+         
+            void Test (ValRef T)
             {
-                Console.WriteLine(P.V);
+                T = null;
+                //Is a nullable type thus is a reference type
             }
         }
+
+       
     }
-
-
-
 }
